@@ -1,0 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+div:active {
+  background-color: orange;
+}
+
+div:hover {
+  background-color: blueviolet;
+  cursor: pointer;
+}

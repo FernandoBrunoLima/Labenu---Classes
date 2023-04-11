@@ -1,0 +1,17 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  color: orange;
+}
+
+h2.texto-com-background {
+  background-color: yellow;
+}
+
+h2#texto-com-outra-cor {
+  color: green;
+}

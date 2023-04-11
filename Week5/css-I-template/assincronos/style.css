@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* p {
+  display: inline;
+} */
+.fundo-vermelho {
+  /* display: inline; */
+  /* display: none; */
+  background-color: red;
+  color: white;
+}
+
+.fundo-azul {
+  background-color: blue;
+  color: white;
+}
+
+#titulo {
+  color: blueviolet;
+}

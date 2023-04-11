@@ -1,0 +1,21 @@
+/* * {
+  margin: 0;
+  padding: 0;
+} */
+
+header {
+  top: 0;
+  position: fixed;
+}
+
+main {
+  bottom: 50%;
+  position: relative;
+  height: 1500px;
+  background-color: aquamarine;
+}
+
+footer {
+  bottom: 0;
+  position: absolute;
+}
