@@ -1,6 +1,6 @@
 * {
   margin: 0;
-  border: 0;
+  padding: 0;
 }
 
 .main {
@@ -8,9 +8,9 @@
 }
 .bloco {
   color: white;
-  width: 30%;
+  width: fit-content;
   margin: 8px;
-  padding: 5px 25px 25px 5px;
+  padding: 8px 25px 20px 8px;
 }
 
 #bloco-1 {

@@ -1,0 +1,43 @@
+div {
+  background-color: #afafaf;
+  border-radius: 10px;
+  border: 1px solid black;
+  width: 700px;
+  height: 400px;
+  display: flex;
+  align-items: flex-start;
+}
+
+.verde {
+  background-color: #27e127;
+  border-radius: 10px;
+  border: 1px solid black;
+  order: 1;
+  flex-basis: 300px;
+  align-self: center;
+}
+.azul {
+  background-color: #228efb;
+  border-radius: 10px;
+  border: 1px solid black;
+  order: 2;
+  flex-grow: 1;
+  align-self: flex-end;
+}
+.vermelho {
+  background-color: #f72020;
+  border-radius: 10px;
+  border: 1px solid black;
+  flex-grow: 3;
+  align-self: stretch;
+}
+
+li {
+  background-color: #e8e7e8;
+  width: 80px;
+  border-radius: 10px;
+  margin: 8px;
+  text-align: center;
+  padding: 8px;
+  border: 1px solid black;
+}
