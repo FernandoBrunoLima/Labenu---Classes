@@ -3,8 +3,12 @@
   padding: 0;
 }
 
-body {
+.section-body {
+  display: flex;
   background-color: #0e0e0e;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
 }
 
 main {
