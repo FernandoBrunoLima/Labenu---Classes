@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+section {
+  border: 1px solid black;
+  width: 33vw;
+  height: 20vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 480px) {
+  /* celulares */
+  main {
+    flex-direction: column;
+  }
+
+  section {
+    width: 100vw;
+    align-items: start;
+    color: red;
+  }
+}

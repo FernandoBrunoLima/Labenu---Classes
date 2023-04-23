@@ -1,0 +1,35 @@
+div {
+  background-color: #afafaf;
+  border-radius: 10px;
+  border: 1px solid black;
+  width: 600px;
+  height: 400px;
+  display: grid;
+  grid-template: 1fr 1fr / 1fr 1fr 1fr 1fr;
+  /* justify-items: start;
+  align-items: start; */
+}
+
+.azul {
+  background-color: #228efb;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+.verde {
+  background-color: #0ccd0c;
+  border-radius: 10px;
+  border: 1px solid black;
+  /* justify-self: center;
+  align-self: end; */
+  grid-row: 2 / 3;
+  grid-column: 2 /5;
+}
+
+li {
+  background-color: #c7c7c7;
+  border-radius: 10px;
+  margin: 8px;
+  text-align: center;
+  padding: 5px;
+  border: 1px solid black;
+}
