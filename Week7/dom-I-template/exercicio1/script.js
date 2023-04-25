@@ -1,3 +1,5 @@
+// Utilizando o innerHTML, complete cada uma das frases dos elementos p que estão no arquivo HTML do template da aula.
+
 const idSapo = document.getElementById("sapo");
 idSapo.innerHTML += " pé";
 

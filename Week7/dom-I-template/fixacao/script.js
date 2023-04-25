@@ -1,4 +1,4 @@
-let paragrafoP = document.getElementById("paragrafo").innerHTML;
+const paragrafoP = document.getElementById("paragrafo").innerHTML;
 console.log(paragrafoP);
 
 const showCharTyped = () => {

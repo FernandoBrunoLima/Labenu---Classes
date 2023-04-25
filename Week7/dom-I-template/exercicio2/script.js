@@ -1,3 +1,5 @@
+// Escreva um código que capture os valores dos inputs do arquivo HTML, imprima estes valores no console, e em seguida, limpe os inputs
+
 function submitValues() {
   const inputName = document.getElementById("nome").value;
   const inputEndereco = document.getElementById("endereco").value;
