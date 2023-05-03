@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.Header {
+  background-color: bisque;
+  margin-bottom: 20px;
+  height: 20vh;
+}
+
+.Main {
+  height: 70vh;
+  flex-grow: 1;
+}
+
+.Main > h1 {
+  margin: 2rem;
+}
+
+.Garagem {
+  display: flex;
+  flex-direction: column;
+}
+
+.Garagem > h1 {
+  color: rgb(29, 66, 29);
+  text-decoration: underline;
+}
+
+.Carros {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.Carro {
+  margin: 10px;
+  padding: 10px;
+}
+
+.Logo {
+  width: 10%;
+  padding: 10px;
+}
+
+.Footer {
+  height: 10vh;
+  background-color: rgb(6, 5, 5);
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.RedesSociais {
+  display: flex;
+}
+
+.RedesSociais > h3 {
+  padding-left: 2rem;
+}
