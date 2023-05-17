@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const FormWrapper = styled.div`
   margin: 0 auto;
@@ -7,6 +7,8 @@ export const FormWrapper = styled.div`
   align-items: center;
   justify-content: center;
   padding: 32px;
+  background-color: #2b2d42;
+  flex-grow: 1;
 
   h1 {
     padding: 16px;
@@ -62,6 +64,6 @@ export const Button = styled.button`
   }
 
   &:active {
-    filter: brightness(125%)
+    filter: brightness(125%);
   }
 `;

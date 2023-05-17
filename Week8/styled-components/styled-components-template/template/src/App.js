@@ -1,4 +1,11 @@
-import { Garagem } from "./Componentes/Garagem";
+import { Garagem } from "./Componentes/Garagem/Garagem";
+import styled from "styled-components";
+
+const AppStyled = styled.div`
+
+
+`
+
 
 export default function App() {
   const nome = "Labenu";

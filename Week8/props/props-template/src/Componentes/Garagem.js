@@ -10,7 +10,7 @@ function Garagem(props) {
       </button>
       <Carro carro={props.carro} />
       <Carro carro2={props.carro2} />
-      <Carro carro2={props.carro3} />
+      <Carro carro3={props.carro3} />
     </div>
   );
 }

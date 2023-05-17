@@ -21,7 +21,7 @@ Primeiro, vamos analisar todo o código que vocês estão recebendo.
 
 - Observe o `App.js`, o que você consegue visualizar que já conhece? 
 - Entende o `<GlobalStyles/>`?
-- Analize o useState criado, que tipo de dado está armazenado neste estado?
+- Analize os valores que são esperados por `props` no componente PokemonCard criado, que tipo de dado está sendo esperado neste componente?
 
 - Agora analize o `JSX`, quais componentes existem nesta aplicação?
 - O que existe dentro do componente `PokemonCard`?
@@ -33,7 +33,7 @@ Primeiro, vamos analisar todo o código que vocês estão recebendo.
 
 Agora é hora de criar seus próprios cards, para recolher as informações dos pokemons, você pode usar o site https://bulbapedia.bulbagarden.net/wiki/Main_Page como referência! 
 
-Seu trabalho nesse momento é passar as Props corretamente do componente `App.js` para dentro do componente `PokemonCard`. Verifique se todas elas estão funcionando.
+Seu trabalho nesse momento é criar o estado do pokémon e passar as Props corretamente do componente `App.js` para dentro do componente `PokemonCard`. Verifique se todas elas estão funcionando.
 
 Você vai perceber que é necessário passar uma cor para os styled-components. Você não precisa entender 100% como isso funciona agora, mas se você passar as props corretamente, vai dar certo! :) 
 

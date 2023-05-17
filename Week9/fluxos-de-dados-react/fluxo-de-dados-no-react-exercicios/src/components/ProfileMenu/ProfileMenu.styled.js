@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const ProfileWrapper = styled.div`
   display: flex;
@@ -7,6 +7,7 @@ export const ProfileWrapper = styled.div`
   padding: 32px;
   border-right: 2px solid black;
   height: 100%;
+  background-color: #c4d4ed;
 `;
 
 export const ProfileImage = styled.img`
